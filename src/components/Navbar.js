@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { /*Navbar,*/ Nav, Container } from "react-bootstrap";
+import { Nav } from "react-bootstrap";
 import logo from '../logo.jpg';
 import linkedin from '../Content/image/linkedin.png';
 import instagram from '../Content/image/instagram.png';
@@ -45,9 +45,9 @@ const onUpdateActiveLink = (value) => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#"><img src={linkedin} alt="" /></a>
-              <a href="#"><img src={instagram} alt="" /></a>
-              <a href="#"><img src={facebook} alt="" /></a>
+              <a href="https://www.linkedin.com/in/nobuhle-sibuyi/"><img src={linkedin} alt="" /></a>
+              <a href="https://instagram.com/bubu_mthunzi?igshid=ZDdkNTZiNTM="><img src={instagram} alt="" /></a>
+              <a href="https://m.facebook/nobuhle.cbui"><img src={facebook} alt="" /></a>
             </div>
             <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
           </span>
